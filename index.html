@@ -4,68 +4,38 @@ bodytags: with-hero
 ---
 <div class="hero">
   <section>
-    <h1>RustFest 2017</h1>
+    <h1>RustFest Zürich 2017</h1>
     <p>Let's meet again at a conference dedicated to the Rust programming language</p>
 
     <div class="itemgroup">
 
       <div>
-        <p class="desc">Workshops</p>
+        <p class="desc">Talks</p>
         <p>
           Saturday,<br/>
-          April 29th, 2017
+          September 30th, 2017
         </p>
       </div>
 
       <div>
-        <p class="desc">Talks</p>
+        <p class="desc">Workshops</p>
         <p>
           Sunday,<br/>
-          April 30th, 2017
+          October 1st, 2017
         </p>
       </div>
 
       <div class="location">
         <p class="desc">Location</p>
         <p>
-          <address title="6 V. Hetmana Street, 03057, Kyiv">
-            <a href="/travel/#accommodation">Cosmopolite</a><br />
-            <a href="/location/">Kyiv</a>, Ukraine<br/>
+          <address title="Sonneggstrasse 5, Zurich">
+            <a href="/location/">ETH Zürich</a><br />
+            Zürich, Switzerland<br/>
           </address>
         </p>
       </div>
     </div>
 
-  </section>
-</div>
-
-<div class='popout videoplaylist'>
-  <section>
-    <h1>RustFest 2017 - Videos</h1>
-    <p>Want to know what RustFest looks like? Check out the recordings</p>
-    <div class="embed ratio-16-9">
-      <iframe src="https://www.youtube.com/embed/videoseries?list=PL85XCvVPmGQhvs1Rnet_24B-AI3YSM2YG" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </section>
-</div>
-
-
-
-<div class='popout sponsors'>
-  <section>
-    <h2>Main Sponsors</h2>
-    <ul>
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.featured %}
-        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.logoName}}" /></a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-    <div style="text-align: right">
-      <a class="button primary" href="/sponsoring/">
-        See all sponsors
-      </a>
-    </div>
   </section>
 </div>
 
@@ -76,6 +46,16 @@ bodytags: with-hero
     </div>
     <div style="text-align: right">
       <a href="/blog/">» more news</a>
+    </div>
+  </section>
+</div>
+
+<div class='popout videoplaylist'>
+  <section>
+    <h1>RustFest Kyiv 2017 - Videos</h1>
+    <p>Want to know what RustFest looks like? Check out the recordings from our last event</p>
+    <div class="embed ratio-16-9">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PL85XCvVPmGQhvs1Rnet_24B-AI3YSM2YG" frameborder="0" allowfullscreen></iframe>
     </div>
   </section>
 </div>

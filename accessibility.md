@@ -12,9 +12,8 @@ title: Accessibility Statement
 
 <section markdown="1">
 
-* Toilets at the venue are gendered. (We are sad about this.)
 * The venue is wheelchair accessible, the toilet too!
-* There will be a a quiet room on Sunday, wheelchair accessible.
+* There will be a a quiet room on Saturday, wheelchair accessible.
 * Please do not wear scents.
 
 </section>
