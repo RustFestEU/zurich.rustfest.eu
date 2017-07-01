@@ -4,9 +4,10 @@ permalink: /about/
 title: About
 ---
 
-RustFest is Europe’s Rust-dedicated conference. The one day event will take place in Kyiv.
+RustFest is Europe’s Rust-dedicated conference. The next edition of RustFest will take place as a two-day event in Zurich, Switzerland.
 
-We care about diversity and accessibility at this conference.
+We care about diversity and accessibility at this conference -- please take a look at our [Code of Conduct](/code-of-conduct/) and [Accessibility Statement](/accessibility/).
+
 
 <section>
   <h2>Team</h2>
