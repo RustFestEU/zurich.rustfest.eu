@@ -15,9 +15,14 @@ permalink: /location/
 
 <section>
 <p>
-Zurich is the largest city in Switzerland, located in the northern part of the country and and the tip of Lake Zurich. For many years, Zurich has been ranked as one of the cities with the highest quality of life in the world. With the alps just in reach on the horizon on a clear day, and a lovely old-town near the lake, it is always a great place to visit!</p>
+Zurich is the largest city in Switzerland, located in the northern part of the country and at the tip of Lake Zurich.
+For many years, Zurich has been ranked as one of the cities with the highest quality of life in the world.
+With the alps just in reach on the horizon on a clear day, and a lovely old-town near the lake, it is always a great place to visit!</p>
 
-<p>While it is probably best known for being a financial hub, Zurich is also home to many technology and research endeavors: With three state universities, many tech companies ranging from small startups to large international enterprises, Zurich is a great place for developers and enthusiasts to be in.</p>
+<p>
+While it is probably best known for being a financial hub, Zurich is also home to many technology and research endeavors:
+With three state universities, many tech companies ranging from small startups to large international enterprises, Zurich is a great place for developers and enthusiasts to be in.
+</p>
 </section>
 
 <section class="img-grid">
@@ -32,7 +37,10 @@ Zurich is the largest city in Switzerland, located in the northern part of the c
 
 ## Travel
 
-Zürich is well connected to the rest of Europe with many direct flights and trains to other major European cities every day. The *Zurich International Airport* (**ZRH**) is located just 20 minutes outside of the city center. People looking for cheap flights might also consider flying to the *EuroAirport Basel Mulhouse*, which is 1 hour away from Zurich by train.
+Zürich is well connected to the rest of Europe with many direct flights and trains to other major European cities every day.
+
+The *Zurich International Airport* (**ZRH**) is located just 20 minutes outside of the city center.
+People looking for cheap flights might also consider flying to the *EuroAirport Basel Mulhouse*, which is 1 hour away from Zurich by train.
 
 ### Entry requirements
 
