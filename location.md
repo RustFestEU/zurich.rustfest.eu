@@ -4,7 +4,7 @@ title: "Next stop: Zürich"
 permalink: /location/
 ---
 
-<div class="backdrop" style="background: url(/assets/zurich/30615001992_50cdc23e7b_k.jpg) 50% 40%; padding: 0; background">
+<div class="backdrop" style="background: url(/assets/zurich/zurich-panorama.jpg) 50% 40%; padding: 0; background">
   <div class="popout">
     <section>
       <h1>Welcome to Zürich</h1>
@@ -23,7 +23,7 @@ Zurich is the largest city in Switzerland, located in the northern part of the c
 <section class="img-grid">
 
 <div>
-<img src="/assets/zurich/30615001992_50cdc23e7b_k.jpg">
+<img src="/assets/zurich/zurich-panorama.jpg" alt="Zurich purple hour (panorama shot)">
 </div>
   
 </section>
