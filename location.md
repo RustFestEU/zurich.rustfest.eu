@@ -52,7 +52,7 @@ The address of the venue is *[Sonneggstrasse 5, 8092 Zurich](https://goo.gl/maps
 
 Zurich has excellent public transport - the venue can easily be reached by tram no. 6, 10 and 9 by exiting the stop "ETH/Universitätsspital". Coming from Zurich Main Station ("Zurich HB"), there is also the option to take the Polybahn funicular from "Central" to "ETH Zentrum". Look out for the *focusTerra* signs to find the NO building.
 
-A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a single tick 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
+A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a single ticket 4.40 CHF. Traveling from the airport, you will require a ticket valid for 3 zones (single ticket 6.80 CHF).
 </section>
 
 <section class="img-grid">
