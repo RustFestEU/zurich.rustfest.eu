@@ -4,7 +4,7 @@ title: "Next stop: Zürich"
 permalink: /location/
 ---
 
-<div class="backdrop" style="background: url(/assets/zurich/zurich-panorama.jpg) 50% 40%; padding: 0; background">
+<div class="backdrop" style="background: url(/assets/zurich/zurich-panorama.jpg) 50% 40%; padding: 0; margin-bottom: 1em;">
   <div class="popout">
     <section>
       <h1>Welcome to Zürich</h1>
@@ -26,11 +26,7 @@ With three state universities, many tech companies ranging from small startups t
 </section>
 
 <section class="img-grid">
-
-<div>
-<img src="/assets/zurich/zurich-panorama.jpg" alt="Zurich purple hour (panorama shot)">
-</div>
-  
+  <img src="/assets/zurich/zurich-panorama.jpg" alt="Zurich purple hour (panorama shot)">
 </section>
 
 <section markdown="1">
@@ -66,10 +62,10 @@ A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a sing
 </section>
 
 <section class="img-grid">
-<div>
-<img src="/assets/zurich/eth-mainbuilding.jpg" alt="Main building of ETH by night">
-<img src="/assets/zurich/venue-inside.jpg" alt="Foyer of the NO building">
-</div>
+  <div>
+    <img src="/assets/zurich/eth-mainbuilding.jpg" alt="Main building of ETH by night">
+    <img src="/assets/zurich/venue-inside.jpg" alt="Foyer of the NO building">
+  </div>
 </section>
 
 <hr>

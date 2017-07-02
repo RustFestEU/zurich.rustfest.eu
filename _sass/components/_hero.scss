@@ -71,7 +71,10 @@
 .img-grid {
   display: flex;
   flex-direction: column;
+  align-items: center;
   > div {
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
   }
 }
