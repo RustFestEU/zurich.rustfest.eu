@@ -39,6 +39,8 @@ With three state universities, many tech companies ranging from small startups t
 
 Zürich is well connected to the rest of Europe with many direct flights and trains to other major European cities every day.
 
+Depending upon your location it may be an option to take a high speed train (eg. Paris -> Zürich HB in 4.5h) or a relief train (eg. Berlin -> Zürich in ~10h with wifi).
+
 The *Zurich International Airport* (**ZRH**) is located just 20 minutes outside of the city center.
 People looking for cheap flights might also consider flying to the *EuroAirport Basel Mulhouse*, which is 1 hour away from Zurich by train.
 
