@@ -4,19 +4,19 @@ permalink: /accessibility/
 title: Accessibility Statement
 ---
 
-> You may also be interested in the [**venue accessibility statement**](http://www.focusterra.ethz.ch/en/your-visit.html).
+*You may also be interested in the [**venue accessibility statement**](http://www.focusterra.ethz.ch/en/your-visit.html).*
 
 RustFest is an inclusive conference and as such strives to be accessible to everyone. This includes:
 
 * Offering significantly discounted tickets for concession holders.
 * Ensuring our venues are accessible by wheelchair.
-* Make sure that maps and orientation material is available.
+* Making sure that maps and orientation material is available.
 * Providing clear signage to, from and through the building.
 * Providing quiet spaces for those with sensory issues.
 * Providing accessibility for conference sessions.
 * Providing complimentary tickets for assistants for those with disabilities.
 * Serving a wide range of food and special requests.
-* We are attempting to provide access to non-gendered toilets, but at this time we cannot gaurantee this.
+* We are attempting to provide access to non-gendered toilets, but at this time we cannot guarantee this.
 
 If you're not sure whether the concession rate should apply to you, please do get in touch.
 
