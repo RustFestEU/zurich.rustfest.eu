@@ -63,8 +63,8 @@ A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a sing
 
 <section class="img-grid">
   <div>
-    <img src="/assets/zurich/eth-mainbuilding.jpg" alt="Main building of ETH by night">
-    <img src="/assets/zurich/venue-inside.jpg" alt="Foyer of the NO building">
+    <img src="/assets/zurich/eth-mainbuilding.jpg" alt="Main building of ETH by night" style="max-height: 404px;">
+    <img src="/assets/zurich/venue-inside.jpg" alt="Foyer of the NO building" style="max-height: 404px;">
   </div>
 </section>
 
