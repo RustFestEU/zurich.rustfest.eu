@@ -26,11 +26,11 @@ section.twitter {
   }
 }
 
-#call-for-papers {
+#call-for-proposals {
   padding: 3em 0;
 }
 
-.location {
+.location, #call-for-proposals {
   a, a:hover, a:visited {
     color: $brand_yellow;
     font-weight: bold;
