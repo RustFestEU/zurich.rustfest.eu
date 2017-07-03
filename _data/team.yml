@@ -18,6 +18,7 @@ badboy:
   nick: "BadBoy"
   desc: ""
   thumbnailUrl: badboy.jpg
+  alumn: true
   links:
     - icon: "twitter"
       title: "badboy_"
