@@ -94,6 +94,7 @@ katsel:
   nick: "katsel"
   desc: ""
   thumbnailUrl: katharina.jpg
+  alumn: true
   links:
     - icon: "twitter"
       title: "_katsel"
