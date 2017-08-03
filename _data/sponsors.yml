@@ -1,10 +1,10 @@
 
-- name: "bitfury"
-  logoName: bitfury.png
+- name: "Parity"
+  logoName: parity_logo_transparent_white.png
   featured: true
-  link: "http://bitfury.com/"
+  link: "https://parity.io/"
   group: sponsor
-  desc: "The Bitfury Group develops and delivers both the software and the hardware solutions necessary for businesses, governments, organizations and individuals to securely move an asset across the Blockchain. The expertise of The Bitfury Group ensures successful, easy, fast, secure and cost-effective connectivity to the Blockchain."
+  desc: ""
 - name: "Mozilla"
   logoName: mozilla.svg
   featured: true
@@ -15,44 +15,22 @@
   featured: true
   link: "https://1aim.com"
   group: sponsor
-- name: "Centricular"
-  logoName: centricular.svg
-  featured: false
-  link: "http://www.centricular.com/"
-  group: sponsor
-- name: "clever cloud"
-  logoName: clever-cloud.svg
-  featured: false
-  link: "https://www.clever-cloud.com/"
-  group: sponsor
-- name: "Samsung Open Source Group"
-  logoName: samsungosg.png
-  featured: false
-  link: "https://blogs.s-osg.org/"
+- name: "Thoughtworks"
+  logoName: thoughtworks.png
+  featured: true
+  link: "https://www.thoughtworks.com/"
   group: sponsor
 - name: "asquera GmbH"
   logoName: asquera.svg
   link: "http://asquera.de"
   featured: false
   group: partner
-- name: "Honeypot"
-  logoName: honeypot2.png
+- name: "Coredump Hackerspace"
+  logoName: Coredump_Logo.png
+  link: "https://coredump.ch"
   featured: false
-  link: "https://www.honeypot.io/"
   group: partner
-- name: "Cosmopolite New Congress Hall"
-  logoName: cosmopolite-congress-hall.png
-  link: "http://cosmopolite-kiev.com/conference/new-congress-hall"
+- name: "ETH Zürich"
+  logoName: eth_logo.png
+  link: "https://ethz.ch"
   group: venue
-- name: "Ruby Meditation"
-  logoName: ruby-meditation.png
-  link: http://www.rubymeditation.org/
-  group: media
-- name: IT KPI
-  logoName: rubyc.svg
-  link: http://rubyc.eu/
-  group: media
-- name: IT KPI
-  logoName: ITKPI_black.svg
-  link: http://itkpi.pp.ua
-  group: media
