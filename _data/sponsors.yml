@@ -1,10 +1,10 @@
 
-- name: "bitfury"
-  logoName: bitfury.png
+- name: "Parity"
+  logoName: parity_logo_transparent_white.png
   featured: true
   link: "http://bitfury.com/"
   group: sponsor
-  desc: "The Bitfury Group develops and delivers both the software and the hardware solutions necessary for businesses, governments, organizations and individuals to securely move an asset across the Blockchain. The expertise of The Bitfury Group ensures successful, easy, fast, secure and cost-effective connectivity to the Blockchain."
+  desc: "The Parity Group develops and delivers both the software and the hardware solutions necessary for businesses, governments, organizations and individuals to securely move an asset across the Blockchain. The expertise of The Parity Group ensures successful, easy, fast, secure and cost-effective connectivity to the Blockchain."
 - name: "Mozilla"
   logoName: mozilla.svg
   featured: true
