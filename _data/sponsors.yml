@@ -2,7 +2,7 @@
 - name: "Parity"
   logoName: parity_logo_transparent_white.png
   featured: true
-  link: "http://bitfury.com/"
+  link: "https://parity.io/"
   group: sponsor
   desc: "The Parity Group develops and delivers both the software and the hardware solutions necessary for businesses, governments, organizations and individuals to securely move an asset across the Blockchain. The expertise of The Parity Group ensures successful, easy, fast, secure and cost-effective connectivity to the Blockchain."
 - name: "Mozilla"
@@ -14,6 +14,11 @@
   logoName: 1aim.svg
   featured: true
   link: "https://1aim.com"
+  group: sponsor
+- name: "Thoughtworks"
+  logoName: thoughtworks.png
+  featured: true
+  link: "https://www.thoughtworks.com/"
   group: sponsor
 - name: "asquera GmbH"
   logoName: asquera.svg
