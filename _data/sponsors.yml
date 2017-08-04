@@ -31,6 +31,6 @@
   featured: false
   group: partner
 - name: "ETH Zürich"
-  logoName: eth_logo.png
+  logoName: eth_logo_kurz_neg.svg
   link: "https://ethz.ch"
   group: venue
