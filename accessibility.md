@@ -17,7 +17,7 @@ RustFest is an inclusive conference and as such strives to be accessible to ever
 * Providing complimentary tickets for assistants for disabled participants.
 * Serving a wide range of food and special requests.
 * We provide non-gendered toilets.
-* Comfort animals are welcome at the conference.
+* Sadly, only guide animals are allowed at the venue.
 
 If you're not sure whether the concession rate should apply to you, please do get in touch.
 
