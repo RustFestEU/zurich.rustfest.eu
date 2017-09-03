@@ -1,104 +1,144 @@
-- by: "manish"
+---
+- by: andrea
+  title: "A hammer you can only hold by the handle"
   public: true
-  title: "\"Open\" as in \"Welcoming\": Facilitating Contributions"
-  desc: "Is your open source project \"open\" as in \"available\", or \"open\" as in \"welcoming\"? I'm of the opinion that we should always strive to be welcoming in open source. It's a great way to grow your project, and a great way for people to get opportunities to improve themselves as programmers. Everyone wins! In this talk we'll explore some techniques for doing this effectively, and better understand how to approach mentorship in open source."
-  special: "keynote"
-- by: "edunham"
+  desc: |
+    Rust's type system provides tools to ensure safe memory management, and safe concurrent access to data. What if we used those same tools to encode and enforce other API constraints?
+
+    We can leverage affine types (non-Clone structs) to enforce that a user performs a series of operations in a certain order; or we can use structs as tokens representing the user's ability to perform certain actions. And everything's checked at compile time.
+
+    We'll see how these techniques let us encode complex API constraints, and make them self-documenting by preventing disallowed behaviour at compile time.
+- by: niklas
+  title: "A Rust-based Runtime for the Internet of Things"
   public: true
-  title: "Spreading The Rust"
-  desc: "Today you've gotten inspired by the power of Rust, and seen it skillfully wielded by experts to do great things. This talk will wrap things up by outlining the next steps for bringing Rust to your favorite tech communities. We'll cover the best resources for building expertise at Rust, for you or those you mentor."
-  special: "keynote"
-- by: liz
-  title: "The Illustrated Adventure Survival Guide for New Rustaceans"
-  desc: "Programming is an adventure, often more harrowing than it has to be. If you're more used to higher-level languages like Ruby or JavaScript, learning Rust can feel like an impossible journey that leaves you wishing for a well-written and heavily illustrated field guide.
-
-
-Good news! I have already gone down this road and am now prepared to share my adventure with you. Luckily, I was able to capture much of the flora and fauna of Rustlandia with my primitive pictorial devices (paper and pen)."
-  public: true
-- by: fletcher
-  title: "Taking Rust to Production: Lessons Learned From the Habitat Project"
-  desc: "The Rust language is more than ready for production--it excels at it! The [Habitat](https://www.habitat.sh/) project team has been using Rust for a year in public and an extra year in stealth. With over 40,000 lines of Rust code so far, we maintain multiple CLI applications, a cross-platform process supervisor, a gossip subsystem, and a micro service-oriented distributed build system.
-
-
-In this talk we will cover some of the challenges that Rust is uniquely qualified to address including static compilation, inlining dependencies, using clap for CLI parsing, pragmatically using native C libraries, maintaining a common codebase for Linux, Mac, and Windows, and on-boarding new Rustaceans. Have no fear: there has never been a better time to use Rust for your next service, application, or tool!"
-  public: true
-- speakers:
-  - luis
-  - sebastian
-  title: "GStreamer & Rust – A perfect match"
-  desc: "GStreamer is a highly versatile, cross-platform, plugin-based multimedia framework that caters to the whole range of multimedia needs. It can be used basically everywhere, from embedded devices like phones, TVs or drones to desktop applications or on huge server farms.
-
-
-In this talk we will discuss how Rust is the perfect match for GStreamer to evolve from its C roots and safely enter the future. Be it for application development on top of GStreamer or for the development of plugins, where the actual media processing is happening. We will give an overview of the current status of getting Rust and GStreamer working together, our experience with Rust so far, what problems we ran into and what is already possible today. In the end we will give an outline of our ideas how to evolve from here, what the next steps are on the way to world domination.
-
-
-And who knows, maybe in the future we will have a GStreamer completely written in Rust?"
-  public: true
-- by: pe_meunier
-  title: "Building SSH servers in minutes"
-  desc: "Thrussh is an SSH library for writing both clients and servers. It grew out of the need for a specialised SSH server, with very limited default permissions.
-
-
-Thrussh uses Tokio, which allows it to be combined with other protocols easily, and asynchronously.
-Current projects using it include nest.pijul.com (not yet fully public, sorry), where SSH is used to push and pull Pijul patches to repositories hosted there, and authentication is just a matter of checking a public key in an PostgreSQL database.
-
-
-Now, why would anyone want to write such a library? Well, I'll try to show why Rust convinced me that this was a good idea:
-
-    - easy code reviews and collaboration (newcomers are not very likely to break stuff when trying, as opposed to C).
-
-    - limited time required to build efficient stuff.
-
-    - forced pattern matching and types everywhere: it might walk like an encrypted connection and quack like an encrypted connection, yet be a standard one.
-
-    - forward-compatibility with the ecosystem: this code transitioned from one backend for asynchronous IO to another, more high-level one. The transition to a first working version took only a few hours.
-"
-  public: true
-- by: ashley
-  public: true
-  title: "How I Convinced the World's Largest Package Manager to Use Rust, and So Can You!"
-  desc: "I made one of my favorite pull requests ever on December 17, 2016:
+  desc: |
+    In this talk, I'll share my experience evaluating Rust as a basis for building Internet of Things (IoT) applications down to the bare metal.
     
-
-    `rust-www/pulls/634: add npm to friends page`
-
-
-On any given day, the npm registry, a repository of packages primarily for JavaScript and Node.js, serves around 350,000,000 package downloads. The npm services team is small and this once little Node.js service, the lifeblood of the modern web development workflow, is now a huge set of microservices- and starting in late 2016, it's no longer just Node.js- it's running production Rust.
-
-
-In this talk, I'll tell the story of how I convinced my manager and team to give Rust a chance. Along the way, I'll talk about the critical challenges that the npm registry services encounter on a daily basis, the patterns we've adopted to cope with the heavy operational load, and how they are well suited to be solved with Rust. I'll also highlight the unique aspects of Rust that make it an pleasure to learn and teach, as well as how it is a strong technical candidate for replacing Node.js (hint: Tokio!).
-
-
-At the end of the talk, you will have a keen understanding of what problems Rust is good at solving and feel motivated and empowered to start the conversation about bringing Rust into your own organization."
-- by: geof
-  title: "Sōzu, a hot reconfigurable reverse HTTP proxy"
-  desc: "Could you write a Rust program that never, ever has to stop? Not even for configuration changes or binary upgrades? One that will handle the traffic for thousands of applications on many more virtual machines that get up and down at any time?
-The Sōzu HTTP reverse proxy is there to solve that problem. This talk will cover various parts of its architecture, from its streaming HTTP parser built with nom, its single-threaded worker handling events with mio, and all the associated tooling to command and control the proxy."
+    In principle, Rust's combination of memory safety and low runtime overhead makes it an ideal candidate for building IoT applications which currently are almost the exclusive domain of C and C++. As part of my master's studies, we ported Tock, an embedded operating system written in Rust, to a Bluetooth Low Energy SoC processor.
+    
+    In the end, we found that Rust is usable for building IoT applications with similar power consumption as production C implementations.
+- by: mohammed
+  title: "Antimony: a real time distributed stream processing system"
   public: true
-- by: ingvar
-  title: "Interaction with real-world JavaScript from compiled Rust"
-  desc: "Rust recently got an official support for asm.js and WebAssembly targets.
-
-
-While many have already played with it, tried to build simple hello-worlds and check the browser/Node.js console for result, there is still no well-established solution for Rust to interact with DOM API, JavaScript libraries or Node.js built-ins.
-
-
-During the talk we will get a glimpse on how this can be done on the low-level, how to wrap common browser APIs into a nice Rust interface and how to interact with JavaScript objects without having a native GC support in Rust (yet)."
-  public: true
+  desc: |
+    A real-time stream processing and distributed computation system written completely in Rust designed to out-storm storm and is heavily influenced by the Twitter Heron paper. (http://dl.acm.org/citation.cfm?id=2742788). Antimony addresses all the architectural and efficiency issues of storm just like Heron does however implemented in a much safer language and is not bound to be backward compatible with storm. we will explore the implementation of a cross-platform high performance / lightweight stream processing and distributed computation system in Rust backed by the full power of Tokio.rs
 - by: lislis
-  title: "Making a game in Rust"
-  desc: "When you're trying to learn a new programming language it makes sense to start with a small project. A lot of developers would write an API server or a Twitter bot.
-When I try to learn a new language I start by writing a game.
-Let me show you how I wrote my first game in Rust with Piston."
+  title: "Create Rust games easily"
   public: true
-- by: "paul"
-  title: "vagga -- containerization without daemons"
-  desc: "For some reason Docker today is a synonym for containers. The goal of this talk is to break that myth. Vagga is full-scale containerization for development environments which has much more features suited specifically for dev. envs, in a much smaller codebase. I'll try to explore both the essential features of vagga itself and how rust is specifically well suited for containers, including existing libraries."
+  desc: |
+    Ever wanted to make a game in Rust but didn't know where to start? Then ggez is the framework just for you!
+    
+    It bundles graphics and audio crates together with a simple API so can get started straight away.
+    
+    In this talk I want to walk you through the making of a game with ggez from empty boilerplate to publishing a playable game.
+- by: jorge
+  title: "Fearless concurrency in your microcontroller"
   public: true
-- by: "pascal"
+  desc: |
+    Fast, efficient, safe: pick three.
+
+    Embedded systems are highly concurrent; they must respond to several different external stimuli within tight time constraints while maintaining a low power consumption. At the core of these systems we usually find microcontrollers, low end Systems on a Chip (SoCs) with just about enough resources to fulfill their tasks: tens of MHz of CPU frequency and a few KBs of RAM are usual.
+
+    In this talk we'll explore how to do efficient multitasking on these systems using zero cost, memory safe abstractions.
+- by: alex
+  title: "Impractical Macros"
   public: true
-  title: "Writing Idiomatic Libraries in Rust"
-  desc: "The existence of libraries with nice, user-friendly interfaces is one of the most important factors when choosing a programming language. And while there are lots of books about how to write idiomatic libraries in other languages, finding the same information for Rust is more difficult. With this in mind, this talk will present several techniques that help developers take advantage of all that Rust has to offer and create idiomatic APIs: From implementing conversion traits and session types to using custom iterators and decorating built-in types."
-- by:
-  title:
-  desc:
+  desc: |
+    A whirlwind tour through a (macro_rules 1.0!) macro that interprets everyone's favorite Turing tarpit, Brainfuck, completely at compile time. I'll highlight various components such as number encoding, arithmetic, input/output and explain how they work.
+
+    This is not a macro tutorial. I'll cover a few techniques that you might possibly be able to use in real code, such as how to set up a recursive macro with an accumulator, but I'll be breezing through them to get to the fun stuff, like memory zippers and "Zermelo numbers" (a term I may have invented).
+- by: geoffroy
+  public: true
+  title: "Macromancy - an introduction to Rust macros"
+  desc: |
+    Many times you must reuse code
+
+    And your generics aren't commode
+
+    Can you deal in the macro dark arts
+
+    Recompose code of similar parts
+
+    Or would the compiler explode?
+
+
+    Rejoice! Follow now our ways
+
+    Unlock the compiler's high praise
+
+    Listen here to this initiation
+
+    Each eldritch arcane incantation
+
+    Summons help 'gainst the terrors we face.
+- by: pierre
+  title: "Mistakes to avoid when writing a wrapper around a C library"
+  public: true
+  desc: |
+    Do you need to perform a certain task in Rust? Why not pick a mature C library that already does what you want, and write a wrapping library around it?
+
+    Writing a wrapping library is sometimes not as easy as one could think, and you will probably make mistakes that will make you lose time or even make
+    your wrapper unsound.
+
+    This talk will show you the most common safety problems you may not have thought of, such as leak safety, but will also give you advices on what not
+    to do when designing the API of your library.
+- by: llogiq
+  title: "Rust In Rhymes"
+  public: true
+  desc: |
+    This talk will take on a rather diverse set of topics, each outlined in limerick form. For each topic, a short explanation, also in rhymes (though not limerick meter), will follow where applicable. Slides will vary between code examples, rustdoc screenshots and memes.
+
+    For example:
+
+    With `unimplemented!()` confess
+    
+    to your users the method is less
+    
+    than done–you can now
+    
+    add a message of how
+    
+    to deal with the unfinished mess.
+
+
+    To delve a bit more into what's new
+
+    PR 42155 brought to you
+
+    the way to get your message through
+
+    for things that you still intend to do.
+- by: elizabeth
+  title: "Rust: an alternative to high-level programming languages?"
+  public: true
+  desc: |
+    Rust is a systems programming language that runs blazingly fast. But what's its place for writing applications that don't particularly need to delve into systems programming, and only need to be "not too slow"? Can it be appealing to programmers who would rather not have to deal with memory management and don't care about the performance cost?
+
+    Can Rust's type safety and the guarantees it brings allow a high-level programmer to be more confident, empowering them to more easily build and maintain complex applications? Or is Rust's complexity too much of a barrier for that?
+- by: fedor
+  title: SHAR, rust gamedev experience.
+  public: true
+  desc: |
+    SHAR is the 3d multiplayer action game. I am going to talk about its internal implementation details and about problems and challenges met during development.
+
+    I'll give a quick overview of all components SHAR is using - GUI, animations, FXses, networking, data serialization, modding.
+
+    I'll show some code and will describe why decisions were made and to what consequences they led to.
+- by: igor
+  title: "Teaching an IDE to understand Rust"
+  public: true
+  desc: >
+    IDE support is one of Rust's most requested features. From the 2017 State of Rust Survey: roughly 30% of Rust users are looking forward to IDE support more than any other feature in 2017 and for 22% of non-users, lack of IDE support is their main reason for not using Rust.
+
+    In this talk, I'll cover what it took to support Cargo workspaces in the RLS and I'll explain how the RLS leverages
+    existing tooling, including Cargo and the compiler. I'll demonstrate the current state of Rust programming with an IDE, and how you can benefit from using an IDE with your Rust projects.
+- by: thomas
+  title: Testing strategies and pattern for efficient TDD in Rust
+  public: true
+  desc: >
+    Test-Driven Development is a systematic method to develop robust and self-documented software by incremental steps.
+
+    To TDD in Rust, there will be 2 great obstacles. First, testing infrastructure will be harder to build as Rust lacks reflection, introspection, and casting. Furthermore it is known for its compiler strictness, making incremental development harder.
+
+    This talk is aimed at applying the TDD method successfully. We will see the methodology by the book, some pitfalls, and how to avoid them with some Rust patterns and strategies that will help you ship at all time with great confidence.
+
