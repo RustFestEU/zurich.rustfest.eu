@@ -21,7 +21,7 @@
   title: "Antimony: a real time distributed stream processing system"
   public: true
   desc: |
-    A real-time stream processing and distributed computation system written completely in Rust designed to out-storm storm and is heavily influenced by the Twitter Heron paper. (http://dl.acm.org/citation.cfm?id=2742788). Antimony addresses all the architectural and efficiency issues of storm just like Heron does however implemented in a much safer language and is not bound to be backward compatible with storm. we will explore the implementation of a cross-platform high performance / lightweight stream processing and distributed computation system in Rust backed by the full power of Tokio.rs
+    A real-time stream processing and distributed computation system written completely in Rust designed to out-storm storm and is heavily influenced by the [Twitter Heron paper](http://dl.acm.org/citation.cfm?id=2742788). Antimony addresses all the architectural and efficiency issues of storm just like Heron does however implemented in a much safer language and is not bound to be backward compatible with storm. we will explore the implementation of a cross-platform high performance / lightweight stream processing and distributed computation system in Rust backed by the full power of Tokio.rs
 - by: lislis
   title: "Create Rust games easily"
   public: true
@@ -51,26 +51,17 @@
   public: true
   title: "Macromancy - an introduction to Rust macros"
   desc: |
-    Many times you must reuse code
-
-    And your generics aren't commode
-
-    Can you deal in the macro dark arts
-
-    Recompose code of similar parts
-
-    Or would the compiler explode?
-
-
-    Rejoice! Follow now our ways
-
-    Unlock the compiler's high praise
-
-    Listen here to this initiation
-
-    Each eldritch arcane incantation
-
-    Summons help 'gainst the terrors we face.
+    > Many times you must reuse code<br>
+    > And your generics aren't commode<br>
+    > Can you deal in the macro dark arts<br>
+    > Recompose code of similar parts<br>
+    > Or would the compiler explode?<br>
+    > <br>
+    > Rejoice! Follow now our ways<br>
+    > Unlock the compiler's high praise<br>
+    > Listen here to this initiation<br>
+    > Each eldritch arcane incantation<br>
+    > Summons help 'gainst the terrors we face.<br>
 - by: pierre
   title: "Mistakes to avoid when writing a wrapper around a C library"
   public: true
@@ -90,24 +81,16 @@
 
     For example:
 
-    With `unimplemented!()` confess
-    
-    to your users the method is less
-    
-    than done–you can now
-    
-    add a message of how
-    
-    to deal with the unfinished mess.
-
-
-    To delve a bit more into what's new
-
-    PR 42155 brought to you
-
-    the way to get your message through
-
-    for things that you still intend to do.
+    > With `unimplemented!()` confess<br>
+    > to your users the method is less<br>
+    > than done–you can now<br>
+    > add a message of how<br>
+    > to deal with the unfinished mess.<br>
+    > <br>
+    > To delve a bit more into what's new<br>
+    > PR 42155 brought to you<br>
+    > the way to get your message through<br>
+    > for things that you still intend to do.<br>
 - by: elizabeth
   title: "Rust: an alternative to high-level programming languages?"
   public: true
