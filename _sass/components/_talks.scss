@@ -38,6 +38,10 @@
 
       margin-bottom: .5em;
       font-weight: bold;
+
+      a {
+        opacity: 1;
+      }
     }
   }
 
@@ -58,6 +62,12 @@
 
   .abstract {
     @include flex-grow(2);
+
+    blockquote {
+      border-left: .25em solid #99aaff;
+      margin-left: 0;
+      padding-left: 1.5em;
+    }
   }
 
   .speaker {
@@ -79,6 +89,9 @@
         width: 80%;
         display: inline-block;
         margin: 0.5em auto;
+
+        background: url(/assets/zurich/speakers/no-photo.jpg);
+        background-size: contain;
       }
     }
 

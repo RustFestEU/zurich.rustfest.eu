@@ -12,6 +12,15 @@ andrea:
       link: http://utaal.github.io/
   desc: |
     I'm a PhD student and Research assistant in the Systems Group, Dept. of Computer Science at ETH Zürich. I have past industry experience with type-heavy programming languages and now work with rust on safe, reliable, distributed data processing.
+anselm:
+  name: Anselm Eickhoff
+  nick: aeickhoff
+  thumbnailUrl: anselm.jpg
+  links:
+    - icon: github
+      link: https://github.com/aeickhoff
+  desc: |
+    Self-taught hacker and CS student from Germany. Got the crazy idea to build Citybound - a new, large-scale city simulation game and engine, on my own. I'm busy plowing through all the custom technology that needs to be invented and implemented for that, all of which I write in Rust.
 niklas:
   name: Niklas Adolfsson
   nick: niklasad1
@@ -102,7 +111,7 @@ pierre:
       link: https://twitter.com/tomaka17
 llogiq:
   name: Andre 'llogiq' Bogus
-  thumbnailUrl: andre.jpg
+  thumbnailUrl: llogiq.jpg
   links:
     - icon: website
       link: https://llogiq.github.io/
@@ -122,7 +131,7 @@ elizabeth:
     - icon: website
       link: http://lise-henry.github.io/
   desc: |
-    I used to work as a programmer, but I eventually gave up because I couldn't find a job, and ended I trying to make a living selling fantasy novels. Maybe this last fact shows that I'm not a great programmer (though there might be other factors in play). I love Rust because it makes me feel more confident about the code I write, and the strict compiler compensates for my lack of discipline. 
+    I used to work as a programmer, but I eventually gave up because I couldn't find a job, and ended I trying to make a living selling fantasy novels. Maybe this last fact shows that I'm not a great programmer (though there might be other factors in play). I love Rust because it makes me feel more confident about the code I write, and the strict compiler compensates for my lack of discipline.
 ashley:
   name: Ashley Williams
   nick: ag_dubs
@@ -141,7 +150,7 @@ fedor:
   nick: not-fl3
   thumbnailUrl: "fedor.jpg"
   desc: |
-    Game programmer from Saint-Petersburg, Russia. Worked on Unity3d games mostly. 
+    Game programmer from Saint-Petersburg, Russia. Worked on Unity3d games mostly.
   links:
     - icon: github
       link: https://github.com/not-fl3
@@ -162,7 +171,7 @@ thomas:
   name: Thomas Wickham
   thumbnailUrl: thomas.jpg
   desc: |
-    Hey I'm Thomas, consultant by day, and open-source coder by night. I work at OCTO Technology, a consulting firm specialized in Agile development and Software Craftmanship. I am passionate about empowering people in their daily lives and helping them undertaking their Why. 
+    Hey I'm Thomas, consultant by day, and open-source coder by night. I work at OCTO Technology, a consulting firm specialized in Agile development and Software Craftmanship. I am passionate about empowering people in their daily lives and helping them undertaking their Why.
   links:
     - icon: github
       link: https://github.com/mackwic

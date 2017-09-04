@@ -1,0 +1,67 @@
+{% assign talk = site.sessions | where: "by", page.by | first %}
+{% assign speaker = site.data.speakers[talk.by] %}
+{% if talk.public %}
+
+<div class="popout">
+  <section>
+      <h1>{{talk.title}}</h1>
+      <h2>by {{speaker.name}}</h2>
+  </section>
+</div>
+
+<div>
+  <section>
+    <ul class="talks">
+      <li>
+        <div class="wrap">
+          {% if speaker %}
+            <div id="{{speaker.name |slugify }}" class="speaker">
+              <div class="portrait">
+                <img src="/assets/zurich/speakers/{{talk.by | default: "no-photo"}}.jpg" />
+              </div>
+              <div class="desc">
+                <h3 class="name">{{speaker.name}}</h3>
+                {{speaker.desc | markdownify }}
+
+                <ul class="links">
+                  {% for link in speaker.links %}
+                    <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          {% else %}
+            {% for spk in talk.speakers %}
+              {% assign speaker = site.data.speakers[spk] %}
+
+                <div id="{{speaker.name |slugify }}" class="speaker">
+                  <div class="portrait">
+                    <img src="/assets/speakers/{{speaker.thumbnailUrl}}" />
+                  </div>
+                  <div class="desc">
+                    <h3 class="name">{{speaker.name}}</h3>
+                    {{speaker.desc | markdownify }}
+
+                    <ul class="links">
+                      {% for link in speaker.links %}
+                        <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              {% endfor %}
+          {% endif %}
+          <div class="abstract">
+            {{talk.desc | markdownify}}
+
+            {% if talk.video %}
+            <p><a href="{{talk.video}}">Watch the video</a></p>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+
+{% endif %}
