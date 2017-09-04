@@ -1,118 +1,93 @@
-manish:
-  featured: true
-  name: "Manish Goregaokar"
-  nick: "manishearth"
-  thumbnailUrl: "manish.png"
+---
+andrea:
+  name: Andrea Lattuada
+  nick: utaal
+  thumbnailUrl: andrea.jpg
   links:
-    - icon: rust
-      title: "Manishearth on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/manishearth/activity"
-    - icon: "github"
-      title: "manishearth"
-      link:  "https://github.com/Manishearth"
-    - icon: "twitter"
-      title: "manishearth"
-      link: "https://twitter.com/manishearth"
-    - icon: "website"
-      title: "manishearth.github.io"
-      link: "http://manishearth.github.io/"
-  desc: "I'm a research engineer at Mozilla working on the Servo browser engine in Rust."
-edunham:
-  featured: true
-  name: "E Dunham"
-  nick: "edunham"
-  thumbnailUrl: "edunham.jpg"
-  links:
-    - icon: rust
-      title: "edunham on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/edunham/activity"
-    - icon: "github"
-      title: "manishearth"
-      link:  "https://github.com/edunham"
-    - icon: "twitter"
-      title: "manishearth"
-      link: "https://twitter.com/qedunham"
-  desc: ""
-paul:
-  name: Paul Colomiets
-  thumbnailUrl: "paul.jpg"
-  featured: false
-  desc: "I have coded in python for 10 years. I'm now coding mostly in Rust. I'm obsessive about asynchronous code and microservice-based architecture. For my day job, I'm building containerization and orchestration systems for evo.company. "
-  links:
-    - icon: rust
-      title: "tailhook on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/tailhook/activity"
     - icon: github
-      title: tailhook
-      link: "https://github.com/tailhook"
+      link:  https://github.com/utaal
     - icon: twitter
-      title: PaulColomiets
-      link: "https://twitter.com/PaulColomiets"
-    # - icon: website
-    #   link: 
-pascal:
-  name: Pascal Hertleif
-  featured: false
-  thumbnailUrl: "killercup.jpg"
-  desc: "Pascal Hertleif has been working as software developer for seven years and is active in the Rust community since 2014. He is the author of multiple open source libraries and co-organizer of Rust Cologne. Currently, he is studying computer science at the university of Bonn, Germany, and is employed by a local company as Senior Frontend Developer."
+      link: https://twitter.com/utaal
+    - icon: website
+      link: http://utaal.github.io/
+  desc: |
+    I'm a PhD student and Research assistant in the Systems Group, Dept. of Computer Science at ETH Zürich. I have past industry experience with type-heavy programming languages and now work with rust on safe, reliable, distributed data processing.
+anselm:
+  name: Anselm Eickhoff
+  nick: aeickhoff
+  thumbnailUrl: anselm.jpg
   links:
-    - icon: rust
-      title: "killercup on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/killercup/activity"
     - icon: github
-      title: killercup
-      link: "https://github.com/killercup"
+      link: https://github.com/aeickhoff
+  desc: |
+    Self-taught hacker and CS student from Germany. Got the crazy idea to build Citybound - a new, large-scale city simulation game and engine, on my own. I'm busy plowing through all the custom technology that needs to be invented and implemented for that, all of which I write in Rust.
+niklas:
+  name: Niklas Adolfsson
+  nick: niklasad1
+  thumbnailUrl: niklas.jpg
+  links:
+    - icon: github
+      link: https://github.com/niklasad1
     - icon: twitter
-      title: killercup
-      link: "https://twitter.com/killercup"
-    # - icon: website
-    #   link: 
-maciej:
-  name: Maciej Dziardziel
-  thumbnailUrl: "maciej.jpg"
+      link: https://twitter.com/niklasad1
+  desc: |
+    Niklas Adolfsson is embedded software developer at Cybercom in Sweden. He received a B.S. degree at in Electrical at University of Borås and is currently pursing a MSc. in Computer Science at Chalmers University. He is also a contributor to Tock and has worked as a dependability engineer at SP Technical Research Institute of Sweden.
+mohammed:
+  name: Mohammed Makhlouf
+  nick: msmakhlouf
+  thumbnailUrl: mohammed.jpg
   links:
-    - icon: rust
-      title: "fiedzia on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/fiedzia/activity"
     - icon: github
-      title: Fiedzia
-      link: "https://github.com/Fiedzia"
-    # - icon: website
-    #   link: 
-      
+      link: https://github.com/msmakhlouf
+    - icon: twitter
+      link: https://twitter.com/msmakhlouf
+    - icon: website
+      link: http://blog.mak.my
+  desc: |
+    Mohammed Makhlouf is a experienced Software / Security Engineer, with a passionate interest in machine learning, security and large scale distributed systems. He is the Threat Intelligence Manager at the National CERT of Qatar and is based in Qatar. He infrequently blogs at: http://blog.mak.my
 lislis:
-  name: lislis
-  thumbnailUrl: "lislis.jpg"
-  featured: false
-  desc: "Lisa is a web developer working at Travis CI. She is involved with the Berlin Rails Girls and Clojure Bridge chapters as either coach or organizer. She enjoys making games for fun and as means of learning."
+  name: Lisa
+  nick: lislis
+  thumbnailUrl: lislis.jpg
+  desc: |
+    Lisa works in the product team at Travis CI. When not writing frontend code she learns Clojure and Rust, makes games and boycotts centralized social media.
   links:
     - icon: rust
-      title: "lislis on users.rust-lang.org"
       link: "https://users.rust-lang.org/users/lislis/activity"
     - icon: github
-      title: lislis
-      link: "https://github.com/lislis"
+      link: https://github.com/lislis
     - icon: website
-      link: "https://lislis.de/"
-ingvar:
-  name: Ingvar Stepanyan
-  thumbnailUrl: "ingvar.jpg"
-  featured: true
-  desc: " Obsessed D2D programmer (parsers, compilers, tools & specs), speaker and performance engineer. Currently speeding code up on the fly at Cloudflare."
+      link: https://lislis.de/
+jorge:
+  name: Jorge Aparicio
+  nick: japaric
+  thumbnailUrl: jorge.jpg
   links:
     - icon: github
-      title: RReverser
-      link: "https://github.com/RReverser"
+      link: https://github.com/japaric
     - icon: twitter
-      title: RReverser
-      link: "https://twitter.com/RReverser"
+      link: https://twitter.com/japaricious
     - icon: website
-      link: "https://rreverser.com/"
-geof:
+      link: http://blog.japaric.io/
+  desc: |
+    Jorge Aparicio has been a Rustacean since Rust 0.9 (early 2014) and since that time he has many several contributions to the compiler, the standard libraries and the crate ecosystem. With his background in Mechatronics Jorge has been tackling, for more than one year now, the task of making Rust easy to use for embedded development with great success. He's the author and maintainer of several crates and tools core to the ARM Cortex-M ecosystem.
+alex:
+  name: Alex Burka
+  nick: durka
+  thumbnailUrl: alex.jpg
+  links:
+    - icon: github
+      link: https://github.com/durka
+    - icon: twitter
+      link: https://twitter.com/durka42
+    - icon: website
+      link: https://alexburka.com/
+  desc: |
+    Alex is a robotics graduate student at the University of Pennsylvania. He got into Rust by writing his research software (a hardware controller and web interface for a sensor suite), and continues to spend too much of his free time writing macros.
+geoffroy:
   name: Geoffroy Couprie
-  thumbnailUrl: "geof.png"
-  featured: false
-  desc: " Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management."
+  nick: geal
+  thumbnailUrl: geof.png
   links:
     - icon: rust
       title: "geal on users.rust-lang.org"
@@ -122,125 +97,83 @@ geof:
       link: "https://github.com/Geal"
     - icon: website
       link: "http://geoffroycouprie.com/"
-ashley:
-  name: Ashley Williams
-  featured: false
-  thumbnailUrl: "ashley.jpg"
-  desc: "Ashley Williams wears a lot of hats, both literally and professionally. They are currently a services engineer at npm, Inc, the package manager for JavaScript and the Node.js ecosystem. They also represent the Individual Membership on the Node.js Foundation Board of Directors. Previously a backend and services engineer at Mozilla, and a web engineer and educator at Bocoup, Ashley has a long history of designing, developing, and teaching systems and systems architecture."
+  desc: |
+    Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management.
+pierre:
+  name: Pierre Krieger
+  thumbnailUrl: pierre.jpg
+  desc: |
+    After coding in C++ for about ten years, Pierre switched to Rust in 2014 and has been maintaining several game-development-related libraries. He specializes in graphics programming.
   links:
-    - icon: rust
-      title: "ag_dubs on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/ag_dubs/activity"
     - icon: github
-      title: ashleygwilliams
-      link: "https://github.com/ashleygwilliams"
+      link: https://github.com/tomaka
     - icon: twitter
-      title: ag_dubs
-      link: "https://twitter.com/ag_dubs"
-     # - icon: website
-      # link: 
-pe_meunier:
-  name: Pierre-Étienne Meunier
-  thumbnailUrl: "pe_meunier.jpg"
-  featured: false
-  desc: ""
-  links:
-    - icon: rust
-      title: "pmeunier on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/pmeunier/activity"
-    - icon: github
-      title: 
-      link: "https://github.com/"
-    - icon: twitter
-      title: pe_meunier
-      link: "https://twitter.com/pe_meunier"
-    # - icon: website
-      # link: 
-sebastian:
-  name: Sebastian Dröge
-  thumbnailUrl: "slomo.jpg"
-  featured: false
-  desc: " Sebastian is a Free Software developer and one of the GStreamer maintainers and core developers. He has been involved with the project since more than 10 years now. He also contributes to various other Free Software projects, like Debian, GNOME and WebKit. While finishing his degree in computer sciences at the University of Paderborn in Germany, he started working as a contractor for GStreamer and related technologies. Nowadays Sebastian lives in Greece and is working at Centricular, a company providing consultancy services around GStreamer and Free Software in general. Apart from multimedia related topics, Sebastian has an interest in digital signal processing, programming languages, machine learning, network protocols and distributed systems."
-  links:
-    - icon: rust
-      title: "slomo on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/slomo/activity"
-    - icon: github
-      title: sdroege
-      link: "https://github.com/sdroege"
-    - icon: twitter
-      title: sdroege_
-      link: "https://twitter.com/sdroege_"
-    # - icon: website
-      # link: 
-luis:
-  name: "Luis de Bethencourt"
-  featured: false
-  thumbnailUrl: "luisbg.jpg"
-  desc: "Luis de Bethencourt is a freedom-loving technocrat, who currently works
-for Samsung's Open Source Group in London. He has always enjoyed
-programming and playing around with video, so since he discovered
-GStreamer 7 years ago he's been hooked. Originally from the Canary
-Islands, computers felt like a door to the world. Luis saw open source
-software as the best way to enter the innovative technology community,
-see how it all works, and become a part of it. He enjoys being in front
-of the screen, behind the screen, Friday beers, Sunday ice-creams,
-walks in the park, and people who read bios to the end."
-  links:
-    - icon: rust
-      title: "luisbg on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/luisbg/activity"
-
-fletcher:
-  name: Fletcher Nichol
-  featured: false
-  thumbnailUrl: "fletcher.jpg"
-  desc: " Fletcher Nichol is a software developer from Edmonton, Canada who has worked in jobs ranging from systems administrator to web application developer. He spends far too much time writing open source software and far too little time playing the drums. He is active in many automation and testing projects such as [Chef](https://github.com/chef/chef), [Test Kitchen](http://kitchen.ci/) and is a core developer of [Habitat](https://www.habitat.sh/) which is largely written in Rust. Fletcher works for Chef Software Inc, an automation company for speed and awesomeness."
-  links:
-    - icon: rust
-      title: "fnichol on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/fnichol/activity"
-    - icon: github
-      title: fnichol
-      link: "https://github.com/fnichol"
-    - icon: twitter
-      title: fnichol
-      link: "https://twitter.com/fnichol"
-    # - icon: website
-      # link: 
-liz:
-  name: Liz Baillie
-  thumbnailUrl: "liz.jpg"
-  featured: false
-  desc: "Liz is currently wrangling the JavaScripts and herding the Rubies as an engineer at Tilde. Previously, she spent many years drawing comic books to a limited but enthusiastic audience. She is just getting started at contributing to open source projects and is already addicted. Please send help (don't actually send help)."
-  links:
-    - icon: rust
-      title: "lizbaillie on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/lizbaillie/activity"
-    - icon: github
-      title: lbaillie
-      link: "https://github.com/lbaillie"
-    - icon: twitter
-      title: _lbaillie
-      link: "https://twitter.com/_lbaillie"
-    # - icon: website
-    #   link:
-steve:
-  name: Steve Klabnik
-  thumbnailUrl: "steve.jpg"
-  featured: true
-  staged: true
-  desc: "Hi, I'm Steve! I enjoy turning coffee into code, writing, philosophy, and physical activity."
+      link: https://twitter.com/tomaka17
+llogiq:
+  name: Andre 'llogiq' Bogus
+  thumbnailUrl: llogiq.jpg
   links:
     - icon: website
-      title: "steveklabnik.com"
-      link: "http://www.steveklabnik.com/"
-    - icon: rust
-      title: "steveklabnik on users.rust-lang.org"
-      link: "https://users.rust-lang.org/users/steveklabnik/activity"
+      link: https://llogiq.github.io/
     - icon: github
-      title: steveklabnik
-      link: "https://github.com/steveklabnik"
+      link: https://github.com/llogiq
     - icon: twitter
-      title: steveklabnik
-      link: "https://twitter.com/steveklabnik"
+      link: https://twitter.com/llogiq
+  desc: |
+    The quintessential Rust bard Musician by heart, programmer by trade, Rustacean, Lint maven, Rust Tools peer, nags weekly on rust-users and reddit.
+elizabeth:
+  name: Élisabeth Henry
+  nick: lise-henry
+  thumbnailUrl: "elizabeth.jpg"
+  links:
+    - icon: github
+      link: https://github.com/lise-henry
+    - icon: website
+      link: http://lise-henry.github.io/
+  desc: |
+    I used to work as a programmer, but I eventually gave up because I couldn't find a job, and ended I trying to make a living selling fantasy novels. Maybe this last fact shows that I'm not a great programmer (though there might be other factors in play). I love Rust because it makes me feel more confident about the code I write, and the strict compiler compensates for my lack of discipline.
+ashley:
+  name: Ashley Williams
+  nick: ag_dubs
+  thumbnailUrl: ashley.jpg
+  links:
+    - icon: rust
+      link: https://users.rust-lang.org/users/ag_dubs/activity
+    - icon: github
+      link: https://github.com/ashleygwilliams
+    - icon: twitter
+      link: https://twitter.com/ag_dubs
+  desc: |
+    Ashley is a Services Engineer at npm, Inc. She also represents the Individual Membership on the Node.js Foundation Board of Directors. In her spare time, she contributes to the Rust Programming Language and its package manager, Cargo. She is also a founding organizer of the NodeTogether and RustBridge educational initiatives for underrepresented persons in tech.
+fedor:
+  name: Fedor Logachev
+  nick: not-fl3
+  thumbnailUrl: "fedor.jpg"
+  desc: |
+    Game programmer from Saint-Petersburg, Russia. Worked on Unity3d games mostly.
+  links:
+    - icon: github
+      link: https://github.com/not-fl3
+    - icon: twitter
+      link: https://twitter.com/BringerShar
+igor:
+  name: Igor Matuszewski
+  nick: Xanewok
+  thumbnailUrl: igor.jpg
+  desc: |
+    Igor is studying Computer Science at the University of Warsaw, Poland. Having worked on a AAA game and various smaller ones, he grew tired of the repetitiveness of the process and started a journey to find a language that would aid in building better abstractions. He discovered Rust and decided to help further the IDE story, so the development process would be more enjoyable. He was accepted onto the Google Summer of Code 2017 as a student and has been working to improve the RLS and IDE support.
+  links:
+    - icon: github
+      link: https://github.com/Xanewok
+    - icon: website
+      link: https://xanewok.github.io/
+thomas:
+  name: Thomas Wickham
+  thumbnailUrl: thomas.jpg
+  desc: |
+    Hey I'm Thomas, consultant by day, and open-source coder by night. I work at OCTO Technology, a consulting firm specialized in Agile development and Software Craftmanship. I am passionate about empowering people in their daily lives and helping them undertaking their Why.
+  links:
+    - icon: github
+      link: https://github.com/mackwic
+    - icon: twitter
+      link: https://twitter.com/mackwic
