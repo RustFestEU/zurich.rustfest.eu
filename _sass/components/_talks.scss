@@ -23,8 +23,8 @@
   $card-background: lighten($card-border-color, 10%);
 
   > li {
-    padding-top: 3em;
-    padding-bottom: 5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
     &::after {
       display: block;
       content : " ";
@@ -35,6 +35,9 @@
     > h2 {
       width: 100%;
       display: block;
+
+      margin-bottom: .5em;
+      font-weight: bold;
     }
   }
 
@@ -59,14 +62,19 @@
 
   .speaker {
     @include display(flex);
-    // @include flex-direction(row);
     @include flex-wrap(nowrap);
     text-align: center;
     margin: 2em 1em;
 
+    @media only screen and (max-width: 479px) {
+      @include flex-direction(column);
+    }
 
     .portrait {
-      @include flex-basis(15em);
+      @media only screen and (min-width: 480px) {
+        @include flex-basis(15em);
+      }
+
       img {
         width: 80%;
         display: inline-block;
