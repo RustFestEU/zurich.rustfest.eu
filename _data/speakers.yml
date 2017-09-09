@@ -121,10 +121,10 @@ llogiq:
       link: https://twitter.com/llogiq
   desc: |
     The quintessential Rust bard Musician by heart, programmer by trade, Rustacean, Lint maven, Rust Tools peer, nags weekly on rust-users and reddit.
-elizabeth:
+elisabeth:
   name: Élisabeth Henry
   nick: lise-henry
-  thumbnailUrl: "elizabeth.jpg"
+  thumbnailUrl: "elisabeth.jpg"
   links:
     - icon: github
       link: https://github.com/lise-henry
