@@ -177,3 +177,12 @@ thomas:
       link: https://github.com/mackwic
     - icon: twitter
       link: https://twitter.com/mackwic
+acrichto:
+  name: Alex Crichton
+  nick: alexcrichton
+  thumbnailUrl: acrichto.jpg
+  desc: |
+    Alex is a member of the Rust Core Team who has worked at Mozilla on Rust for the past four years. He is also a member of the Tokio Core Team, one of the primary authors of Cargo, helps maintain the standard library, and likes to ensure that engine of Rust never stops.
+  links:
+    - icon: github
+      link: https://github.com/alexcrichton
