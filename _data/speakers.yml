@@ -186,3 +186,15 @@ acrichto:
   links:
     - icon: github
       link: https://github.com/alexcrichton
+felix:
+  name: "Felix Klock"
+  nick: "pnkfelix"
+  desc: "Felix Klock is a research engineer at Mozilla, where he works on the Rust compiler, runtime libraries, and language design. He previously worked on the ActionScript Virtual Machine for the Adobe Flash runtime. Felix obtained his PhD in Computer Science from Northeastern University, and is also one of the developers of the Larceny Scheme language runtime."
+  thumbnailUrl: felix.jpg
+  links:
+    - icon: "twitter"
+      title: "pnkfelix"
+      link: "https://twitter.com/pnkfelix"
+    - icon: "github"
+      title: "pnkfelix"
+      link: "https://github.com/pnkfelix"
