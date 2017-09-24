@@ -7,9 +7,9 @@
 		{% if talk.workshop %}Workshop:{% endif %}
 		<a href="/sessions/{{include.session}}">{{talk.title}}</a>
 		<div class='speaker'>
-			{% for speaker in talk.speakers %}
-				{% assign speaker = site.data.speakers[speaker] %}
-				<img src="/assets/zurich/speakers/{{speaker}}.jpg" />
+			{% for person in talk.speakers %}
+				{% assign speaker = site.data.speakers[person] %}
+				<img src="/assets/zurich/speakers/{{speaker.thumbnailUrl}}" />
 				{{speaker.name}}
 			{% endfor %}
 		</div>

@@ -87,7 +87,7 @@ alex:
 geoffroy:
   name: Geoffroy Couprie
   nick: geal
-  thumbnailUrl: geof.png
+  thumbnailUrl: geoffroy.jpg
   links:
     - icon: rust
       title: "geal on users.rust-lang.org"
@@ -198,3 +198,101 @@ felix:
     - icon: "github"
       title: "pnkfelix"
       link: "https://github.com/pnkfelix"
+parity-tomasz:
+  name: "Tomasz Drwiega"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity_black.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/tomusdrw"
+parity-jack:
+  name:
+  desc: "A member of [Parity](http://parity.io/)."
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+parity-robert:
+  name: "Robert Habermeier"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-robert.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/rphmeier"
+parity-fredrik:
+  name: "Fredrik Harrysson"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-fredrik.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/folsen"
+parity-marek:
+  name: "Marek Kotewicz"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-marek.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+parity-nikolay:
+  name: "Nikolay Volf"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity_black.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/NikVolf"
+parity-maciej:
+  name: "Maciej Hirsz"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity-maciej.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+    - icon: "github"
+      link: "https://github.com/maciejhirsz"
+parity-jack:
+  name: "Jack Fransham"
+  desc: "A member of [Parity](http://parity.io/)."
+  thumbnailUrl: parity_black.jpg
+  links:
+    - icon: "website"
+      link: "https://parity.io"
+yann:
+  name: "Yann Leretaille"
+  desc: "CTO of 1aim."
+  thumbnailUrl: yann.jpg
+andrew:
+  name: "Andrew Hobden"
+  desc: "RustFest Organizing team member, developer at Asquera."
+  thumbnailUrl: andrew.jpg
+  links:
+    - icon: "github"
+      link: "http://github.com/hoverbear/"
+    - icon: "twitter"
+      link: "https://twitter.com/andrewhobden"
+    - icon: "website"
+      link: "https://hoverbear.org/"
+amit:
+  name: "Amit Levy"
+  desc: "A seventh year Computer Science PhD student at Stanford University in the Secure Computer Systems group and the Stanford Information Networks Group. He's currently working on a new secure operating system for embedded devices called TockOS. He's generally interested in distributed systems, operating systems, security, privacy, programming languages and good will towards people."
+  thumbnailUrl: amit.jpg
+  links:
+    - icon: "github"
+      link: "https://github.com/alevy"
+    - icon: "website"
+      link: "http://www.amitlevy.com/"
+james:
+  name: "James Munns"
+  desc: "James Munns is an Embedded Engineer who has worked on systems ranging from Safety Critical Avionics to Rapidly Prototyped IoT systems. During the day James works at Geeny in Berlin, developing frameworks and tools for IoT Embedded Developers."
+  thumbnailUrl: james.jpg
+  links:
+    - icon: "github"
+      link: "https://github.com/jamesmunns"
+    - icon: "website"
+      link: "https://jamesmunns.com/"
