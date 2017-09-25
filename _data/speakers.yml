@@ -265,7 +265,7 @@ parity-jack:
       link: "https://parity.io"
 yann:
   name: "Yann Leretaille"
-  desc: "CTO of 1aim."
+  desc: "Yann Leretaille is a German tech entrepreneur and think-tank founder. He is the CTO and a co-founder of 1aim, a startup aimed at redefining how buildings work, as well as how we relate to the objects around us, and the Good Technology Collective. The collective advocates for rational data collection, greater public awareness of data gathering and use, and the importance of reframing the narrative of a future society centered around Internet of Things (IoT) to one based around the concept of intelligence by design."
   thumbnailUrl: yann.jpg
 andrew:
   name: "Andrew Hobden"
