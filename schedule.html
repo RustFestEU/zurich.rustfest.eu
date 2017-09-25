@@ -13,7 +13,7 @@ title: Schedule
 
 <div class='schedule'>
   <section>
-    <h2 class="title">Saturday, 30th September</h2>
+    <h1 class="title">Saturday, 30th September</h1>
     <span style="margin-left: 3em; font-style: italic">aka "Talks, Talks, Talks"</span>
 
     <table cellspacing='0'>
@@ -64,11 +64,15 @@ title: Schedule
   </section>
   
   <section>
-    <h2 class="title">Sunday, 1st October</h2>
+    <h1 class="title">Sunday, 1st October</h1>
     <span style="margin-left: 3em; font-style: italic">aka "Working hard all day in the shop"</span>
 
     <table cellspacing='0'>
-	    {% include _schedule_session.html session="felix" %}
+      <tr class="breaks">
+        <td class="time">09<span>30</span></td>
+        <td class="centered">Floor opens</td>
+      </tr>
+      {% include _schedule_session.html session="felix" %}
       <tr class="breaks">
         <td class="time">10<span>45</span></td>
         <td class="centered">Transition</td>
