@@ -7,6 +7,8 @@
   // @include flex-wrap(wrap);
   @include justify-content(space-around);
 
+  .speakers { justify-content: left;}
+
   list-style: none;
   padding: 0;
 
@@ -76,10 +78,7 @@
       .talk_info {
         flex-grow: 1;
       }
-      .speakers {
-        justify-content: left;
-        max-width: 370px;
-      }
+      .speakers { max-width: 370px; }
       .speaker { min-width: 370px; margin: 0px; padding: 0px; }
     }
   }
