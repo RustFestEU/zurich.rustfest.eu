@@ -75,3 +75,12 @@ A 24 hour ticket for within the city of Zurich (zone 110) costs CHF 8.80, a sing
 Lukas Schlagenhauf (CC BY-ND 2.0). <a href="https://commons.wikimedia.org/wiki/File:ETH_Z%C3%BCrich_im_Abendlicht.jpg">ETH Zürich im Abendlicht</a> by ETH-Bibliothek (CC BY-SA 4.0)
 </p>
 </section>
+
+## Additional information
+
+<ul>
+  <li>Yes, you can drink the tap water.</li>
+  <li>The local currency is CHF (not EUR). Zürich is generally a card friendly city.</li>
+  <li>The local power socket is not the EU one. You may need an adaptor.</li>
+  <li>Zürich is generally fairly expensive compared to other European cities, be prepared to pay a bit more for your favorite döner.</li>
+</ul>
