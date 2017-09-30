@@ -11,7 +11,8 @@
 			<div class='talk_info'>
 				{% if talk.keynote %}<b>Keynote:</b>{% endif %}
 				{% if talk.type == 'workshop' %}<i>Workshop:</i>{% endif %}
-				{{talk.title}}
+				{{talk.title}}<br>
+				{% if talk.room %}Room: <b>{{talk.room}}</b>{% endif %}
 			</div>
 			<div class='speakers'>
 				{% for person in talk.speakers %}
