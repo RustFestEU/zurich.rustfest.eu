@@ -1,6 +1,6 @@
 
 - name: "Parity"
-  logoName: parity_logo_transparent_white.png
+  logoName: parity_logo_transparent_black.png
   featured: true
   link: "https://parity.io/"
   group: sponsor
