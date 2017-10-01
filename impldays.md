@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Impl Days"
-permalink: /impldays/
+permalink: /impl_days/
 ---
 
 <div class="popout">
@@ -16,7 +16,7 @@ permalink: /impldays/
 Immediately following the conference, on October 2nd and 3rd, we're currently planning a nice get together with some folks from the community as well as the Rust Team.
 
 You can find us on Monday and Tuesday here at
-<pre><a href="https://www.openstreetmap.org/way/70730651">
+<pre><a href="https://www.openstreetmap.org/way/70730651" target="_blank">
     Quartierhaus Kreis 5
     Sihlquai 115
     8005 Zürich
